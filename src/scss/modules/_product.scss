@@ -8,9 +8,9 @@
   background: var(--green, #a0d187);
 }
 
-.product img {
-  height: 269px;
-  align-self: stretch;
+.product.is-active {
+  background: var(--red, #cf9697);
+  height: 630px;
 }
 
 .product h3 {
@@ -40,6 +40,10 @@
   font-weight: 900;
 }
 
-.product-info p {
+.product-info {
   display: none;
+}
+
+.product-info.is-active {
+  display: show;
 }
